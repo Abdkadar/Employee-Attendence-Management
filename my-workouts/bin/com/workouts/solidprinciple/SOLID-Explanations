@@ -1,0 +1,27 @@
+1. Single Responsibility Principle (SRP)
+A class should have only one reason to change, meaning it should have only one job or responsibility.
+
+2. Open/Closed Principle (OCP)
+The application or module entities the methods, functions, variables, etc.
+The open-closed principle states that according to new requirements the module should be open for extension but closed for modification.
+
+3.Liskov Substitution Principle (LSP)
+Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+The Liskov Substitution Principle (LSP) was introduced by Barbara Liskov. It applies to inheritance in such a way that the derived classes must be completely substitutable for their base classes.
+
+4. Interface Segregation Principle (ISP)
+Clients should not be forced to depend on interfaces they do not use.
+The principle states that the larger interfaces split into smaller ones. Because the implementation classes use only the methods that are required. We should not force the client to use the methods that they do not want to use.
+
+The goal of the interface segregation principle is similar to the single responsibility principle.	
+
+5. Dependency Inversion Principle (DIP)
+High-level modules should not depend on low-level modules. Both should depend on abstractions
+High-level modules should not depend on the low-level module but both should depend on the abstraction.
+
+
+# Why should we use SOLID principles?
+  1.It reduces the dependencies so that a block of code can be changed without affecting the other code blocks.
+  2.The principles intended to make design easier, understandable.
+  3.By using the principles, the system is maintainable, testable, scalable, and reusable.
+  4.It avoids the bad design of the software.
